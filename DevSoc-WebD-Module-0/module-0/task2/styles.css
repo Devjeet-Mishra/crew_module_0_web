@@ -43,3 +43,21 @@ body {
     mask-image: url(soda.png);
     mask-size: auto 100%;
 }
+
+.soda:nth-child(2){
+    opacity: 0;
+}
+
+.product:hover{
+    bottom: 100px;
+}
+
+.product:hover .soda:nth-child(2){
+    opacity: 1;
+    --left: 500px;
+}
+
+.product:hover .soda:nth-child(1){
+    opacity: 0;
+    --left: 500px;
+}
