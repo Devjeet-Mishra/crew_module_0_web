@@ -18,3 +18,8 @@ body {
     border-radius: 6px;
 }
 
+.list {
+    transform-style: preserve-3d;
+    transform: perspective(1000px);
+}
+
