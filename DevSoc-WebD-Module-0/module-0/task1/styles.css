@@ -23,3 +23,7 @@ body {
     transform: perspective(1000px);
 }
 
+.list .item {
+    transition: .5s;
+    filter: brightness(0);
+}
